@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="605.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.fx.Controller.ServerStartFormController">
+   <children>
+      <ImageView fitHeight="617.0" fitWidth="385.0" layoutY="-2.0">
+         <image>
+            <Image url="@img/loading.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnLogin" layoutX="93.0" layoutY="343.0" onAction="#btnLoginOnAction" prefHeight="33.0" prefWidth="199.0" style="-fx-background-color: #f5f6fa;" text="Login">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></JFXButton>
+      <Label layoutX="174.0" layoutY="229.0" text="net" textFill="WHITE">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="202.0" text="o" textFill="WHITE">
+         <font>
+            <Font size="65.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="196.0" fitWidth="320.0" layoutX="33.0" layoutY="86.0">
+         <image>
+            <Image url="@img/Logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

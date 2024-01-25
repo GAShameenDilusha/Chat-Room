@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="605.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.fx.Controller.LoadingFormController">
+   <children>
+      <ImageView fitHeight="617.0" fitWidth="385.0" layoutY="-2.0">
+         <image>
+            <Image url="@img/loading.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="174.0" layoutY="229.0" text="net" textFill="WHITE">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="202.0" text="o" textFill="WHITE">
+         <font>
+            <Font size="65.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgLogo" fitHeight="131.0" fitWidth="230.0" layoutX="78.0" layoutY="126.0">
+         <image>
+            <Image url="@img/Logo.png" />
+         </image>
+      </ImageView>
+      <ProgressIndicator fx:id="loadingBar" layoutX="139.0" layoutY="331.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="101.0" prefWidth="108.0" styleClass="progress" stylesheets="@../../../../../chat_application/src/main/resources/view/style/color.css" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="585.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.fx.Controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="598.0" fitWidth="391.0">
+         <image>
+            <Image url="@img/background.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="174.0" layoutY="229.0" text="net" textFill="WHITE">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="202.0" text="o" textFill="WHITE">
+         <font>
+            <Font size="65.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="196.0" fitWidth="320.0" layoutX="33.0" layoutY="86.0">
+         <image>
+            <Image url="@img/Logo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtPassword" layoutX="42.0" layoutY="424.0" prefHeight="24.0" prefWidth="303.0" promptText="User Name" style="-fx-background-radius: 15;" />
+      <Label layoutX="46.0" layoutY="331.0" text="User Name" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="402.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUserName" layoutX="42.0" layoutY="353.0" prefHeight="24.0" prefWidth="303.0" promptText="User Name" style="-fx-background-radius: 15;" />
+      <JFXButton layoutX="101.0" layoutY="483.0" onAction="#btnRegisterOnAction" prefHeight="24.0" prefWidth="81.0" style="-fx-background-color: #f6e58d;" text="Register">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="205.0" layoutY="483.0" onAction="#btnJoinOnAction" prefHeight="24.0" prefWidth="81.0" style="-fx-background-color: #f6e58d;" text="Join+">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></JFXButton>
+   </children>
+</AnchorPane>
