@@ -11,7 +11,7 @@ public class Server implements Runnable {
     private final ServerSocket serverSocket;
 
     private Server() throws IOException {
-        this.serverSocket = new ServerSocket(3000);
+        this.serverSocket = new ServerSocket(34768);
         System.out.println("Server Started...");
 
     }
