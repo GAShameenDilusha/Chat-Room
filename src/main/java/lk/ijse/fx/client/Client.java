@@ -23,7 +23,7 @@ public class Client implements Runnable, Serializable {
     public Client(String name) throws IOException {
         this.name = name;
 
-        socket = new Socket("localhost", 3000);
+        socket = new Socket("localhost", 34768);
         inputStream = new DataInputStream(socket.getInputStream());
         outputStream = new DataOutputStream(socket.getOutputStream());
 
